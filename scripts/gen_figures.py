@@ -24,6 +24,9 @@ P_LO, P_HI, G_MAX = 0.5, 2.5, 5.0
 
 
 def fig_boundary(out: Path):
+    if not (RESULTS / "summary.csv").exists():
+        print("summary.csv missing -- run analyze_ablation.py after the matrix")
+        return
     pts = []
     with open(RESULTS / "summary.csv") as f:
         for r in csv.DictReader(f):
