@@ -1,0 +1,2 @@
+# minimal runtime: Python >= 3.10
+numpy>=1.24
