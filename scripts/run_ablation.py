@@ -174,7 +174,8 @@ def main():
         for name, data, hdr in (("arms", rows, None), ("gci", gci, None)):
             fp = RESULTS / f"{mid}_{name}.csv"
             if data:
-                keys = list(data[0].keys())
+                keys = list(dict.fromkeys(
+                    k for r in data for k in r.keys()))  # union, order-stable
                 with open(fp, "w", newline="") as f:
                     w = csv.DictWriter(f, keys)
                     w.writeheader()
