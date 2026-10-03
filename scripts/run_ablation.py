@@ -49,6 +49,9 @@ def solve(params: dict, wd: Path, timeout: int) -> dict | None:
                        timeout=timeout)
     except subprocess.TimeoutExpired:
         return None
+    except subprocess.CalledProcessError as e:
+        print(f"  solve crashed rc={e.returncode} in {wd.name}", flush=True)
+        return None
     return _read_report(wd / "emag_report.json")
 
 
@@ -115,8 +118,9 @@ def arms_for(model: dict, model_id: str, timeout: int, wd_root: Path):
             rows.append({"model": model_id, "arm": "A1", "mesh": tag,
                          "lc_scale": s, "FAIL": 1,
                          "wall_s": round(time.time() - t0, 1)})
-    # A2 GCI on fine/mid/coarse
-    for m in METRICS:
+    # A2 GCI on fine/mid/coarse (skip model if any arm solve died)
+    if len(sols) == 3:
+      for m in METRICS:
         v = [sols[t].get(m) for t in ("fine", "mid", "coarse")]
         if all(isinstance(x, (int, float)) for x in v):
             p, fe, g = gci3(*v)
