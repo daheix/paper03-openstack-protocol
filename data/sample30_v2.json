@@ -1,0 +1,40 @@
+{
+ "version": "v2-amendment-1",
+ "seed": 20261003,
+ "rule": "health-stratified: q = n_slots/(3*pole_pairs) integer only",
+ "amendment_reason": "40% of v1 sample (12/30) fractional-slot models are constructively degenerate under the P1 sector formulation (lambda_m=0, T=0, Bg1 an order low); gate statistics would be contaminated by construction. Replacement at measurement-early stage from a construct criterion (q integer), not from outcome data. v1 sample retained for audit.",
+ "sample_regular": [
+  "g2-6s2p-rd",
+  "gen54-shd10-mh43",
+  "gen116-18s12p",
+  "gen39-24s8p-mh27",
+  "gen67-30s10p-a405",
+  "gen136-rsi30-fix",
+  "gen43-42s2p-hb1",
+  "gen132-8p-hb2-sd15",
+  "gen63-54s6p-hb3",
+  "gen132-60s4p",
+  "gen92-66s-rso56",
+  "gen47-72s2p",
+  "gen85-78s",
+  "gen39-84s8p-hb1",
+  "gen107-90s12p",
+  "gen92-96s-rso44",
+  "gen14-6s4p-hb3",
+  "gen8-12s4p-nc60-ls12-sd14",
+  "gen142-18s4p-hb8-mt25",
+  "gen14-24s8p-hb1",
+  "gen56-30s10p-hb6",
+  "gen41-36s6p-hb3",
+  "gen29-42s4p-hb1-mh36",
+  "gen-48s2p-radial",
+  "gen31-54s6p-hb3",
+  "gen47-60s2p",
+  "gen47-66s2p"
+ ],
+ "sample_eccentric": [
+  "g2-hb-ecc02",
+  "g2-hb-ecc05",
+  "g2-rd-ecc02"
+ ]
+}
