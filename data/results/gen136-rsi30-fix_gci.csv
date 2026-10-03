@@ -1,0 +1,7 @@
+model,metric,fine,mid,coarse,p_order,f_extrap,GCI_fine_pct
+gen136-rsi30-fix,Bg1,0.9104,0.9099,0.9197,4.293,0.9104268817204301,0.069
+gen136-rsi30-fix,THD_pct,12.84,13.0,13.31,0.954,12.669333333333332,1.558
+gen136-rsi30-fix,T_avg_slope_Nm,0.0,0.0,0.0,0.0,nan,
+gen136-rsi30-fix,T_avg_amp_Nm,0.0,-0.0,-0.0,0.0,nan,
+gen136-rsi30-fix,lambda_m_Wb,0.0,0.0001,0.0,0.0,0.0,
+gen136-rsi30-fix,lambda1_energy_Wb,0.0,-0.0,-0.0,0.0,nan,

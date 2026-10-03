@@ -1,0 +1,5 @@
+Bg1,THD_pct,lambda_m_Wb,T_avg_slope_Nm,T_avg_amp_Nm,lambda1_energy_Wb,runtime_s,model,arm,mesh,lc_scale,FAIL,wall_s
+0.158,1.36,0.0645,0.0,0.0,0.0,122.5,gen63-54s6p-hb3,A0,default,,,
+0.1586,1.02,0.0644,0.0001,-0.0001,-0.0001,51.1,gen63-54s6p-hb3,A1,coarse,2.0,,
+0.158,1.36,0.0645,0.0,0.0,0.0,108.8,gen63-54s6p-hb3,A1,mid,1.0,,
+,,,,,,,gen63-54s6p-hb3,A1,fine,0.5,1,300.2

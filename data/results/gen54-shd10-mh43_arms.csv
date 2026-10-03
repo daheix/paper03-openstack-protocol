@@ -1,0 +1,5 @@
+Bg1,THD_pct,lambda_m_Wb,T_avg_slope_Nm,T_avg_amp_Nm,lambda1_energy_Wb,runtime_s,model,arm,mesh,lc_scale,FAIL,wall_s
+0.2164,12.55,0.1708,0.0906,0.0917,0.1972,160.1,gen54-shd10-mh43,A0,default,,,
+,,,,,,,gen54-shd10-mh43,A1,coarse,2.0,1,11.7
+0.2164,12.55,0.1708,0.0906,0.0917,0.1972,204.0,gen54-shd10-mh43,A1,mid,1.0,,
+,,,,,,,gen54-shd10-mh43,A1,fine,0.5,1,307.1

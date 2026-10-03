@@ -1,0 +1,7 @@
+model,metric,fine,mid,coarse,p_order,f_extrap,GCI_fine_pct
+gen132-8p-hb2-sd15,Bg1,0.8878,0.8736,0.8767,2.196,0.8917657657657658,1.999
+gen132-8p-hb2-sd15,THD_pct,13.06,13.0,13.24,2.0,13.08,0.574
+gen132-8p-hb2-sd15,T_avg_slope_Nm,0.0,0.0001,0.0,0.0,0.0,
+gen132-8p-hb2-sd15,T_avg_amp_Nm,-0.0,-0.0001,-0.0,0.0,-0.0,
+gen132-8p-hb2-sd15,lambda_m_Wb,0.0,0.0001,0.0,0.0,0.0,
+gen132-8p-hb2-sd15,lambda1_energy_Wb,-0.0,-0.0,-0.0,0.0,nan,
