@@ -61,3 +61,8 @@ commit + CHANGELOG.
 
 `data/` receives per-arm CSVs (`results_arm{A0..A3}.csv`), the merged matrix
 (`results_matrix.csv`), and `sample30.json`. Analysis scripts read CSVs only.
+
+
+## 口径注记（2026-10-04）
+
+样本于库=1,700 文件（1,523 常规/177 偏心）口径下抽取并冻结（v0.1.1，测量前）；上游库其后扩至 1,710（新增分数槽集中绕组族）。**冻结样本不变**——预注册纪律以抽样时刻快照为准，扩容模型不入本轮（记录于 engine_snapshot/CHANGELOG，供复现者对齐）。
