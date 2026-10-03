@@ -1,6 +1,4 @@
-manuscript/
-*.aux
-*.log
-*.out
+data/workdirs/
+data/results/*.csv.tmp
 __pycache__/
 *.pyc
