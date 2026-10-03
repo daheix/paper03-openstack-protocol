@@ -2,3 +2,5 @@ data/workdirs/
 data/results/*.csv.tmp
 __pycache__/
 *.pyc
+# 论文文本接收前不入公开库 (同 paper02 纪律)
+manuscript/
