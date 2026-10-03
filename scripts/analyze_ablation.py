@@ -50,9 +50,10 @@ def main():
     c1_pass = sum(int(r.get("C1_pass", 0) == "1") for r in c1)
 
     out = RESULTS / "summary.csv"
+    keys = list(dict.fromkeys(
+        k for r in rated for k in r.keys()))  # union, order-stable
     with open(out, "w", newline="") as f:
-        w = csv.DictWriter(f, ["model", "metric", "p_order", "GCI_fine_pct",
-                               "in_range", "gci_ok", "h1_pass"])
+        w = csv.DictWriter(f, keys)
         w.writeheader()
         w.writerows(rated)
 

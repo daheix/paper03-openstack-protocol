@@ -1,0 +1,7 @@
+model,metric,fine,mid,coarse,p_order,f_extrap,GCI_fine_pct,C1_pass,in_range,gci_ok,h1_pass
+g2-6s2p-rd,Bg1,0.948,0.9467,0.9461,1.115,0.9491142857142855,0.171,,True,True,True
+g2-6s2p-rd,THD_pct,30.25,30.3,30.77,3.233,30.24404761904762,0.207,,False,True,False
+g2-6s2p-rd,T_avg_slope_Nm,1.483,1.4815,1.4777,1.341,1.4839782608695653,0.126,,True,True,True
+g2-6s2p-rd,T_avg_amp_Nm,1.5,1.4986,1.4947,1.478,1.5007840000000001,0.117,,True,True,True
+g2-6s2p-rd,lambda_m_Wb,1.5458,1.5443,1.5402,1.451,1.5466653846153848,0.121,,True,True,True
+g2-6s2p-rd,lambda1_energy_Wb,1.1053,1.1042,1.1014,1.348,1.106011764705882,0.124,,True,True,True
