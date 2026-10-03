@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this replication package, cite it as below."
+title: paper03-openstack-protocol
+authors:
+  - family-names: Wu
+    given-names: Shouchun
+    orcid: "https://orcid.org/0009-0007-3577-2552"
+version: v0.1.0
+date-released: "2026-10-03"
+repository-code: "https://github.com/daheix/paper03-openstack-protocol"

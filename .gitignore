@@ -1,0 +1,6 @@
+manuscript/
+*.aux
+*.log
+*.out
+__pycache__/
+*.pyc
