@@ -29,7 +29,8 @@ GetDP 4.0.0, P1 magnetostatics) for electrical-machine metrics into a
 ## Status
 
 - [x] v0.1.0 — repo skeleton, frozen experiment plan, gap evidence
-- [ ] v0.2.0 — stratified sample + ablation driver + first data
+- [x] v0.1.1 — stratified sample (sample30.json)
+- [ ] v0.2.0 — ablation driver + first data + ablation driver + first data
 - [ ] v0.3.0 — full 30×4 matrix + analysis
 - [ ] manuscript (IET-style → target: Advances in Engineering Software)
 
