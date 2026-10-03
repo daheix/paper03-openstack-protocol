@@ -1,0 +1,49 @@
+{
+ "version": "v3-amendment-3",
+ "seed": 20261003,
+ "criterions": [
+  "q=n_slots/(3*pole_pairs)\u2208Z",
+  "tooth: 2*slot_half_deg<360/n_slots",
+  "libraryBg1\u2208[0.5,1.2]T (\u5e38\u89c4\u65cf)",
+  "eccentric pool: q+tooth only"
+ ],
+ "pool_stats": {
+  "regular_pool": 341,
+  "ecc_pool": 136
+ },
+ "note": "Amendment3: \u5168\u5e93\u666e\u67e51254/1597(79%)\u5e93\u6807\u5b9aBg1<0.3T\u975e\u7269\u7406, \u5065\u5eb7\u6c60395; \u504f\u5fc3\u65cf\u4fdd\u7559v2\u53e3\u5f84; gen132-60s4p \u5df2\u5b8c\u6210\u5168\u94fe\u5f3a\u5236\u4fdd\u7559(\u66ff\u6362gen8-12s8p-nc60-ls12-sd14)",
+ "sample_regular": [
+  "g2-6s2p-rd",
+  "g2-hb-mt3-sd10-ea80",
+  "g2-hb-mt4-sd10-ea90",
+  "g2-hb-mt5-sd12-ea85",
+  "g2-rd-mt2-sd14-ea80",
+  "g2-rd-mt3-sd14-ea90",
+  "g2-rd-mt5-sd10-ea85",
+  "gen-12s4p-radial",
+  "gen10-12s4p-hb5-sd10-sh10",
+  "gen137-24s4p-hb5-ma365",
+  "gen142-18s4p-hb8-mt25",
+  "gen2-12s4p-hb2-ma3500-sd14-mt2",
+  "gen2-12s4p-hb4-ma3500-sd10-mt2",
+  "gen2-12s8p-hb4-ma3200-sd14-mt2",
+  "gen3-12s4p-hb1-sh15-nc60-ls8-ma3200",
+  "gen3-12s4p-hb3-sh15-nc140-ls12-ma3825",
+  "gen3-12s4p-hb3-sh25-nc60-ls12-ma3200",
+  "gen3-12s8p-hb1-sh15-nc60-ls8-ma3825",
+  "gen4-12s4p-hb1-rso50-sd10-mt4",
+  "gen48-rsi330",
+  "gen64-a405-hb3",
+  "gen7-12s4p-hb1-ma3400",
+  "gen7-24s4p-hb1-ma3000",
+  "gen8-12s4p-nc100-ls10-sd10",
+  "gen8-12s4p-nc140-ls8-sd14",
+  "gen8-12s8p-nc100-ls8-sd10",
+  "gen132-60s4p"
+ ],
+ "sample_eccentric": [
+  "g2-hb-ecc05",
+  "gen101-ecc5-so54",
+  "gen70-8p-hb1-ecc15"
+ ]
+}
