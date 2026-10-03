@@ -38,6 +38,8 @@ G_CGI = 1.25  # GCI fine safety factor (Roache 1994, 3-grid)
 
 def solve(params: dict, wd: Path, timeout: int) -> dict | None:
     wd.mkdir(parents=True, exist_ok=True)
+    if (wd / "emag_report.json").exists():   # resume: arm already solved
+        return _read_report(wd / "emag_report.json")
     pf = wd / "params.json"
     pf.write_text(json.dumps(params))
     cmd = [sys.executable, "run_emag_getdp.py", "--params", str(pf),
@@ -47,7 +49,11 @@ def solve(params: dict, wd: Path, timeout: int) -> dict | None:
                        timeout=timeout)
     except subprocess.TimeoutExpired:
         return None
-    rpt = wd / "emag_report.json"
+    return _read_report(wd / "emag_report.json")
+
+
+def _read_report(rpt: Path) -> dict | None:
+    """Parse emag_report.json -> ablation metric dict (None if missing)."""
     if not rpt.exists():
         return None
     r = json.loads(rpt.read_text())
@@ -77,9 +83,8 @@ def gci3(f1: float, f2: float, f3: float, r: float = 2.0):
     return p, fe, G_CGI * ga
 
 
-def arms_for(model: dict, timeout: int, wd_root: Path):
+def arms_for(model: dict, model_id: str, timeout: int, wd_root: Path):
     d = dict(model["design"])
-    model_id = model["model_id"]
     rows, gci_rows = [], []
 
     # A0 bare
@@ -160,7 +165,7 @@ def main():
             continue
         model = json.loads(mf.read_text())
         t0 = time.time()
-        rows, gci = arms_for(model, a.timeout,
+        rows, gci = arms_for(model, mid, a.timeout,
                              RESULTS.parent / "workdirs")
         for name, data, hdr in (("arms", rows, None), ("gci", gci, None)):
             fp = RESULTS / f"{mid}_{name}.csv"
