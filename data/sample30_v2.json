@@ -1,5 +1,5 @@
 {
- "version": "v2-amendment-1",
+ "version": "v2-amendment-2",
  "seed": 20261003,
  "rule": "health-stratified: q = n_slots/(3*pole_pairs) integer only",
  "amendment_reason": "40% of v1 sample (12/30) fractional-slot models are constructively degenerate under the P1 sector formulation (lambda_m=0, T=0, Bg1 an order low); gate statistics would be contaminated by construction. Replacement at measurement-early stage from a construct criterion (q integer), not from outcome data. v1 sample retained for audit.",
@@ -18,8 +18,6 @@
   "gen47-72s2p",
   "gen85-78s",
   "gen39-84s8p-hb1",
-  "gen107-90s12p",
-  "gen92-96s-rso44",
   "gen14-6s4p-hb3",
   "gen8-12s4p-nc60-ls12-sd14",
   "gen142-18s4p-hb8-mt25",
@@ -30,11 +28,25 @@
   "gen-48s2p-radial",
   "gen31-54s6p-hb3",
   "gen47-60s2p",
-  "gen47-66s2p"
+  "gen47-66s2p",
+  "gen143-36s6p-hb8-rsi31",
+  "gen101-ls8-so46"
  ],
  "sample_eccentric": [
   "g2-hb-ecc02",
   "g2-hb-ecc05",
   "g2-rd-ecc02"
- ]
+ ],
+ "amendment2": {
+  "replaced": [
+   "gen107-90s12p",
+   "gen92-96s-rso44"
+  ],
+  "with": [
+   "gen143-36s6p-hb8-rsi31",
+   "gen101-ls8-so46"
+  ],
+  "criterion": "tooth-width: 2*slot_half_deg < 360/n_slots (upstream \u6ce8\u8bb011)",
+  "reason": "\u6784\u9020\u6027\u9f7f\u5bbd\u9000\u5316, \u5224\u636e\u6765\u81ea\u4e3b\u9879\u76ee\u5df2\u5165\u6863\u6ce8\u8bb011, \u975e\u7ed3\u679c\u6027; \u6d4b\u91cf\u65e9\u671f(<3/30 \u5b8c\u6210)"
+ }
 }
