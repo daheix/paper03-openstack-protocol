@@ -2,12 +2,12 @@
 
 > 论文：How Much Protocol Does an Open-Source FE Stack Need? A 30-Model Ablation of Mesh, GCI, and Arbitration Protocols for Electrical-Machine Simulation
 > 目标期刊链（11 号中俄匹配）：AES → COMPEL → SCTS → CMM
-> 状态：**初稿/文献证据已达标 30/30**（矩阵 29/30 待终判数据回填；30/30 后回填终判→门禁全判）
+> 状态：**初稿/文献证据已达标 30/30**（矩阵终判数据待 30/30 回填→门禁全判；L2 复现包已交付 verify 6/6 PASS）
 > 门禁纪律：第 6–9 条全部通过前不写正文。
 
 ## 1. 真实性核验（门禁第 6 条）
 
-### 1.1 近 3 年文献证据清单（进行中，目标 ≥30）
+### 1.1 近 3 年文献证据清单（30/30 达标，2026-10-04）
 
 检索渠道：Crossref/OpenAlex/Semantic Scholar 学术索引（web_search，2026-10-04）。
 每篇标注"止步于哪里"——即其结论未覆盖的协议化缺口。
@@ -91,7 +91,7 @@
 | 可复现（第 11 条环境标准） | **是（2026-10-04 交付）** | L2 包 repro/：Dockerfile（python:3.12.3-slim-bookworm 钉版，digest 待有 docker 环境回填）+ requirements.lock（干净 venv pip freeze 11 包精确锁定）+ Makefile（build/run/verify）+ expected_results/（g2-6s2p-rd A0 参考 6 指标+sha256，容差 1%）+ 捆绑 gmsh/getdp 自包含二进制；实跑验证 VERIFY PASS 6/6 指标 0.00% 偏差（wall 112 s） |
 | Aims&Scope 匹配 | **是** | AES（仿真方法学）→COMPEL（电机电磁数值）→SCTS→CMM，对照 11 号匹配表 |
 
-**门禁结论（当前）**：第 6 条进行中（11/30 文献）；第 9 条复现项 2026-10-04 过（L2 包交付+verify 实跑 PASS；digest 钉定与 docker build && make run && make verify 验收留待有容器环境执行，已在 repro/README.md 诚实标注）；其余已过。全部通过前不写正文数值段（\pending 占位维持）。
+**门禁结论（当前）**：第 6 条过（30/30 文献表，全 DOI 级）；第 9 条复现项 2026-10-04 过（L2 包交付+verify 实跑 PASS；digest 钉定与 docker build && make run && make verify 验收留待有容器环境执行，已在 repro/README.md 诚实标注）；其余已过。全部通过前不写正文数值段（\pending 占位维持）。
 
 ---
 *生成：2026-10-04；文献检索轮：v4 R7/R8/R10；矩阵时点：29/30。*
