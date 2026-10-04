@@ -1,0 +1,5 @@
+Bg1,THD_pct,lambda_m_Wb,T_avg_slope_Nm,T_avg_amp_Nm,lambda1_energy_Wb,runtime_s,model,arm,mesh,lc_scale,FAIL,wall_s
+0.9592,21.79,0.9778,1.5142,1.5317,1.1286,95.2,gen-12s4p-radial,A0,default,,,
+0.9609,21.95,0.9754,1.51,1.5274,1.1255,26.9,gen-12s4p-radial,A1,coarse,2.0,,
+0.9592,21.79,0.9778,1.5142,1.5317,1.1286,71.1,gen-12s4p-radial,A1,mid,1.0,,
+,,,,,,,gen-12s4p-radial,A1,fine,0.5,1,300.2
