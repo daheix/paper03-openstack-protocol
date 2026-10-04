@@ -1,0 +1,5 @@
+Bg1,THD_pct,lambda_m_Wb,T_avg_slope_Nm,T_avg_amp_Nm,lambda1_energy_Wb,runtime_s,model,arm,mesh,lc_scale,FAIL,wall_s
+0.8552,21.6,0.8886,1.1004,1.1131,1.026,177.0,g2-rd-mt2-sd14-ea80,A0,default,,,
+0.8562,21.6,0.8861,1.097,1.1096,1.0228,93.4,g2-rd-mt2-sd14-ea80,A1,coarse,2.0,,
+0.8552,21.6,0.8886,1.1004,1.1131,1.026,174.3,g2-rd-mt2-sd14-ea80,A1,mid,1.0,,
+,,,,,,,g2-rd-mt2-sd14-ea80,A1,fine,0.5,1,300.1

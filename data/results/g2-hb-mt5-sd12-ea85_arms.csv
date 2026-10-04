@@ -1,0 +1,5 @@
+model,arm,mesh,FAIL,wall_s,Bg1,THD_pct,lambda_m_Wb,T_avg_slope_Nm,T_avg_amp_Nm,lambda1_energy_Wb,runtime_s,lc_scale
+g2-hb-mt5-sd12-ea85,A0,default,1,301.0,,,,,,,,
+g2-hb-mt5-sd12-ea85,A1,coarse,,,1.012,9.54,1.0333,0.0,14.9984,16.5769,119.9,2.0
+g2-hb-mt5-sd12-ea85,A1,mid,,,1.0096,9.56,1.0344,0.0,15.0216,16.6026,232.5,1.0
+g2-hb-mt5-sd12-ea85,A1,fine,1,300.1,,,,,,,,0.5

@@ -114,3 +114,7 @@ radial 默认族（g2-6s2p-rd）正常；amp 随极弧占比递增（80%→8.27,
 hc 矢量 .pro 注释已言明 radiale/Halbach 分段双模式——翻转源头在 halbach 分段式
 的符号/相位约定，属**引擎-口径层**而非模型设计缺陷；v3 余下 hb 族预期同翻转，
 矩阵数据将给出 n=整族的定量边界。
+**O4 终证（10:15）**：控制变量对照——g2-rd-mt2-sd14-ea80（radial, mag_half_deg=36° 同弧）
+T_slope=1.1004/T_amp=1.1131 **完全正常** vs g2-hb-mt3-sd10-ea80（halbach, 同 36°）翻转。
+同极弧、同槽深族、唯一差异 magnetization 字段→**翻转唯一归因 halbach 分段 hc 矢量式**。
+极弧占比仅放大幅值（halbach 族 8.27→12.82 随 ea 递增），非翻转原因。证据链闭合。

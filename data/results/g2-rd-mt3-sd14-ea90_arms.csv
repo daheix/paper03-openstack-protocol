@@ -1,0 +1,5 @@
+Bg1,THD_pct,lambda_m_Wb,T_avg_slope_Nm,T_avg_amp_Nm,lambda1_energy_Wb,runtime_s,model,arm,mesh,lc_scale
+0.9943,27.9,0.9915,1.2279,1.242,1.1448,203.2,g2-rd-mt3-sd14-ea90,A0,default,
+0.9958,28.3,0.9894,1.2249,1.239,1.142,56.5,g2-rd-mt3-sd14-ea90,A1,coarse,2.0
+0.9943,27.9,0.9915,1.2279,1.242,1.1448,67.0,g2-rd-mt3-sd14-ea90,A1,mid,1.0
+0.997,27.82,0.9924,1.229,1.2431,1.1458,260.8,g2-rd-mt3-sd14-ea90,A1,fine,0.5
