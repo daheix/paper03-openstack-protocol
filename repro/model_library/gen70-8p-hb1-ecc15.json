@@ -1,0 +1,26 @@
+{
+ "design": {
+  "R_shaft": 0.01,
+  "R_ri": 0.016,
+  "mag_t": 0.003,
+  "R_si": 0.031,
+  "slot_depth": 0.012,
+  "R_so": 0.05,
+  "slot_half_deg": 2.0,
+  "mag_half_deg": 18.0,
+  "n_slots": 12,
+  "n_poles": 8,
+  "p": 4,
+  "L_stack": 0.1,
+  "Nc": 100.0,
+  "magnetization": "radial",
+  "halbach_segments": 1,
+  "eccentricity_mm": 1.5
+ },
+ "description": "扩容70: 12s8p hb1 静偏心1.5mm 故障工况",
+ "reference_metrics": {
+  "Bg1_T": 0.1266,
+  "THD_pct": 29.2,
+  "note": "库批跑自动标定(--calibrate)"
+ }
+}

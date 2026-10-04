@@ -1,0 +1,31 @@
+{
+ "model_id": "g2-rd-mt2-sd14-ea80",
+ "name": "扫掠变体 rd 磁厚2 槽深14 极弧0.8",
+ "source": {
+  "origin": "parametric-sweep-v2",
+  "note": "gen_variants.py 自动生成"
+ },
+ "reference_metrics": {
+  "note": "库批跑自动标定(--calibrate)",
+  "Bg1_T": 0.8552,
+  "THD_pct": 21.6
+ },
+ "design": {
+  "R_shaft": 0.01,
+  "R_ri": 0.027,
+  "mag_t": 0.002,
+  "R_si": 0.03,
+  "slot_depth": 0.014,
+  "R_so": 0.05,
+  "slot_half_deg": 2.0,
+  "mag_half_deg": 36.0,
+  "n_slots": 12,
+  "n_poles": 4,
+  "p": 2,
+  "L_stack": 0.1,
+  "Nc": 100.0,
+  "magnetization": "radial",
+  "halbach_segments": 1,
+  "eccentricity_mm": 0.0
+ }
+}

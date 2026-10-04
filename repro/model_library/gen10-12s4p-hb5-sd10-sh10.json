@@ -1,0 +1,26 @@
+{
+ "design": {
+  "R_shaft": 0.01,
+  "R_ri": 0.026,
+  "mag_t": 0.003,
+  "R_si": 0.031,
+  "slot_depth": 0.01,
+  "R_so": 0.05,
+  "slot_half_deg": 1.0,
+  "mag_half_deg": 36.0,
+  "n_slots": 12,
+  "n_poles": 4,
+  "p": 2,
+  "L_stack": 0.1,
+  "Nc": 100.0,
+  "magnetization": "radial",
+  "halbach_segments": 5,
+  "eccentricity_mm": 0.0
+ },
+ "description": "扩容10: Halbach5段/槽深10mm/槽口1.0°",
+ "reference_metrics": {
+  "Bg1_T": 0.7541,
+  "THD_pct": 20.0,
+  "note": "库批跑自动标定(--calibrate)"
+ }
+}

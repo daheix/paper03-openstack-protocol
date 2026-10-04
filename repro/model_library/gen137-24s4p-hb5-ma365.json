@@ -1,0 +1,28 @@
+{
+ "model_id": "gen137-24s4p-hb5-ma365",
+ "name": "24s4p hb5 ma36.5° (4p×hb5极角上探)",
+ "source": {
+  "origin": "gen137-wave",
+  "note": "4p×hb5×ma365"
+ },
+ "reference_metrics": {
+  "note": "库批跑自动标定(--calibrate)",
+  "Bg1_T": 0.9413,
+  "THD_pct": 22.1
+ },
+ "design": {
+  "n_slots": 24,
+  "n_poles": 4,
+  "p": 2,
+  "halbach_segments": 5,
+  "mag_half_deg": 36.5,
+  "slot_half_deg": 2.0,
+  "slot_depth": 0.012,
+  "mag_t": 0.003,
+  "L_stack": 0.08,
+  "Nc": 100.0,
+  "R_so": 0.05,
+  "R_si": 0.031,
+  "R_ri": 0.027
+ }
+}

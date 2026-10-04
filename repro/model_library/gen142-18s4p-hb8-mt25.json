@@ -1,0 +1,30 @@
+{
+ "model_id": "gen142-18s4p-hb8-mt25",
+ "name": "18s4p hb8 ecc0 (每极4.5槽THD映射)",
+ "source": {
+  "wave": "gen142",
+  "note": "hb8谱系加密(6p/12p空白+薄磁体)+每极槽数-THD映射加密(4p槽序列18~60s); R_ri保气隙1mm, 注记10断言护航"
+ },
+ "reference_metrics": {
+  "Bg1_T": 0.7062,
+  "THD_pct": 28.9,
+  "note": "库批跑自动标定(--calibrate)"
+ },
+ "design": {
+  "n_slots": 18,
+  "n_poles": 4,
+  "p": 2,
+  "halbach_segments": 8,
+  "magnetization": "halbach",
+  "mag_half_deg": 36.0,
+  "slot_half_deg": 6.0,
+  "slot_depth": 0.012,
+  "mag_t": 0.0025,
+  "L_stack": 0.06,
+  "Nc": 100,
+  "R_so": 0.048,
+  "R_si": 0.028,
+  "R_ri": 0.0245,
+  "eccentricity_mm": 0
+ }
+}

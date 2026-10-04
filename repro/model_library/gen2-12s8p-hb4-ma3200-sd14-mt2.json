@@ -1,0 +1,26 @@
+{
+ "design": {
+  "R_shaft": 0.01,
+  "R_ri": 0.026,
+  "mag_t": 0.0025,
+  "R_si": 0.03,
+  "slot_depth": 0.014,
+  "R_so": 0.05,
+  "slot_half_deg": 2.0,
+  "mag_half_deg": 32.0,
+  "n_slots": 12,
+  "n_poles": 8,
+  "p": 4,
+  "L_stack": 0.1,
+  "Nc": 100.0,
+  "magnetization": "radial",
+  "halbach_segments": 4,
+  "eccentricity_mm": 0.0
+ },
+ "description": "扩容网格: 磁极角32.0°/8极/hb4/槽深14mm/磁厚2.5mm",
+ "reference_metrics": {
+  "Bg1_T": 0.7642,
+  "THD_pct": 54.7,
+  "note": "库批跑自动标定(--calibrate)"
+ }
+}

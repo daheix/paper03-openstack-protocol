@@ -1,0 +1,18 @@
+{
+  "model_id": "g2-6s2p-rd",
+  "arm": "A0",
+  "description": "verify reference for L2 reproducible package: sample30_v3 sample_regular[0], bare arm (lc_air=5e-4 default)",
+  "sample_version": "v3-amendment-3",
+  "seed": 20261003,
+  "generated_utc": "2026-10-04T04:26:48Z",
+  "reference_metrics": {
+    "no_load.r_sample": 0.0295,
+    "no_load.Bg_pole_mean": 0.7504,
+    "no_load.Bg1": 0.9467,
+    "no_load.THD_pct": 30.3,
+    "no_load.Bg1_analytic_flat": 0.8593,
+    "no_load.err_vs_analytic_pct": 10.17
+  },
+  "tolerance_pct": 1.0,
+  "reference_report_sha256": "8a8a5dfee05b783b52866d2e35c33c78d48b61ff571d816615a90ea345128842"
+}

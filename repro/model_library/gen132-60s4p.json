@@ -1,0 +1,23 @@
+{
+ "design": {
+  "n_slots": 60,
+  "n_poles": 4,
+  "p": 2,
+  "halbach_segments": 1,
+  "mag_half_deg": 36.0,
+  "slot_half_deg": 2.0,
+  "slot_depth": 0.012,
+  "mag_t": 0.003,
+  "L_stack": 0.08,
+  "Nc": 75.0,
+  "R_so": 0.05,
+  "R_si": 0.031,
+  "R_ri": 0.027
+ },
+ "description": "gen132 60s4p 60槽4极组合(15槽每极整数比) | 槽60×极4 hb1 ma36.0 sh2.0 sd12 mt3.0 ls8 nc75 rso5 rsi3 ecc0.00",
+ "reference_metrics": {
+  "Bg1_T": 0.8957,
+  "THD_pct": 22.2,
+  "note": "库批跑自动标定(--calibrate)"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "design": {
+  "R_shaft": 0.01,
+  "R_ri": 0.026,
+  "mag_t": 0.004,
+  "R_si": 0.032,
+  "slot_depth": 0.01,
+  "R_so": 0.05,
+  "slot_half_deg": 2.0,
+  "mag_half_deg": 36.0,
+  "n_slots": 12,
+  "n_poles": 4,
+  "p": 2,
+  "L_stack": 0.1,
+  "Nc": 100.0,
+  "magnetization": "radial",
+  "halbach_segments": 1,
+  "eccentricity_mm": 0.0
+ },
+ "description": "扩容4: 定子外径50mm/槽深10mm/磁厚4.0mm/4极/hb1",
+ "reference_metrics": {
+  "Bg1_T": 0.8171,
+  "THD_pct": 19.1,
+  "note": "库批跑自动标定(--calibrate)"
+ }
+}
