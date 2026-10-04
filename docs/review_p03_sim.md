@@ -26,3 +26,10 @@
 
 - Major 3 条全部真实修复（非措辞搪塞），修复后重编译+重核验均 PASS。
 - 修订后判定：**模拟审稿通过（Major 清零）**，可进入 S6 投稿包。
+
+## 查重自查（2026-10-04）
+
+- 方法: 8-gram 词级重叠（LaTeX 去宏去注释后纯文本，paper03 全文 1499 词）
+- vs paper02_torque/manuscript/main.tex: **0.00%**（0/1492 个 8-gram 相同）—— 远低于 15%/单源 3% 线
+- vs paper01: 工作区无 tex 稿（EMSE 投稿系统中），写作期已按差异化纪律独立成文
+- 外部文献查重: 本地无 iThenticate，投稿后以刊方 Crossref Similarity Check 结果为准
