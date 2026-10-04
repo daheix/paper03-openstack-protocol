@@ -1,0 +1,5 @@
+Bg1,THD_pct,lambda_m_Wb,T_avg_slope_Nm,T_avg_amp_Nm,lambda1_energy_Wb,runtime_s,model,arm,mesh,lc_scale,FAIL,wall_s
+0.9565,8.35,0.9697,0.0,12.8203,17.4892,162.3,g2-hb-mt4-sd10-ea90,A0,default,,,
+0.9589,8.58,0.9684,0.0,12.7995,17.4609,91.8,g2-hb-mt4-sd10-ea90,A1,coarse,2.0,,
+0.9565,8.35,0.9697,0.0,12.8203,17.4892,136.6,g2-hb-mt4-sd10-ea90,A1,mid,1.0,,
+,,,,,,,g2-hb-mt4-sd10-ea90,A1,fine,0.5,1,300.3
