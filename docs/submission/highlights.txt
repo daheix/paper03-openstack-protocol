@@ -1,0 +1,7 @@
+# Highlights（AES 要求 3–5 条，每条 ≤85 字符）
+
+1. Preregistered 4-arm protocol quantifies Gmsh/GetDP precision on 30 motor models
+2. 75.0% of rated pairs reach the asymptotic gate; all failures are order outliers
+3. Protocol changes answers <=0.18% (median) but costs runtime, not accuracy
+4. Torque arbitration reconciles two pipelines on 8/8 completable models
+5. Locked reproduction package ships with a <=1% six-metric acceptance gate
