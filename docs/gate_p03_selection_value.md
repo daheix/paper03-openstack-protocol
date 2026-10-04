@@ -77,10 +77,10 @@
 - GCI/Richardson 是已有方法（CFD 起源），但电机 EM 端到端协议化 + 30 模型分层样本评估是首次；
 - 附加构造性发现（audit 三层）：库参照健全性（79% Bg1<0.3T 口径）、几何构造门、跨指标盲区——超出"新场景验证"的增量。
 
-**3 条 claim（各配实验设计）**：
-1. **C1**：4 臂协议（lc×{2,1,0.5}→GCI→C1 仲裁）可在 30 模型分层样本上给出每指标 GCI/阶数分布。——实验：run_ablation.py 4 臂×30 模型（已完成 29/30）。
-2. **C2**：协议对不可信值的标记率 ≥95%（H2），渐近域占比可测（H1）。——实验：analyze_ablation.py 全矩阵判定（待 30/30 终判）。
-3. **C3**：协议系统偏移 <0.5%（fig_arms_gap：协议臂 vs 裸跑中位漂移 Bg1 0.27%/THD 0.46%/T_slope 0.10%/λm 0.10%，25/30 时点实测）。——实验：arms_gap 盒图+表。
+**3 条 claim（各配实验设计；终判回填 2026-10-04 13:5x，scripts/final_verdict.py，summary30.csv）**：
+1. **C1 ✅ 验证成立**：4 臂协议（lc×{2,1,0.5}→GCI→C1 仲裁）可在 30 模型分层样本上给出每指标 GCI/阶数分布。——实验：run_ablation.py 4 臂×30 模型 **30/30 完成**（求解 99/120 OK；fine 臂 10 完成/20 超时=wall-time 边界，超时记录为 FAIL 不丢弃）；56 个 (model,metric) rated 配对全部带 GCI/阶数。
+2. **C2 ✅ 以预注册失败分支成立**：H1 **42/56=75.0% <90% → FAIL**；失败形态干净：**p 窗口外 14、GCI>5% 0、双失 0**（GCI_fine 中位 0.11%/p90 0.32%/max 0.65%——网格收敛全部达标，失败全部来自 Richardson 阶次非渐近 |p| 中位 1.45、max 4.52）；H2 标记率 25.0%（flag 集=p-out 集，每个 flag 携带 p/GCI 证据）——协议的边际价值=**标记不可信值**而非改变数值；按指标 λm 10/10 全过、THD 4/10 最差（谐波类无渐近行为，与预注册预测一致）；偏心 holdout 4/5 过（80%≥常规族 75%，协议在退化几何下不恶化）。
+3. **C3 ✅ 验证成立（12 fine 完成模型实测）**：协议臂 vs 裸跑偏移中位 Bg1 0.155%/THD 0.180%/T_slope 0.083%/λm 0.084%/T_amp 0.077%/λ1 0.078%（全 <0.5%）；零值转换链模型（T=0 家族）不入配对、按层记录。
 
 ## 4. SCI 核心要求预检（门禁第 9 条）
 
@@ -91,7 +91,7 @@
 | 可复现（第 11 条环境标准） | **是（2026-10-04 交付）** | L2 包 repro/：Dockerfile（python:3.12.3-slim-bookworm 钉版，digest 待有 docker 环境回填）+ requirements.lock（干净 venv pip freeze 11 包精确锁定）+ Makefile（build/run/verify）+ expected_results/（g2-6s2p-rd A0 参考 6 指标+sha256，容差 1%）+ 捆绑 gmsh/getdp 自包含二进制；实跑验证 VERIFY PASS 6/6 指标 0.00% 偏差（wall 112 s） |
 | Aims&Scope 匹配 | **是** | AES（仿真方法学）→COMPEL（电机电磁数值）→SCTS→CMM，对照 11 号匹配表 |
 
-**门禁结论（当前）**：第 6 条过（30/30 文献表，全 DOI 级）；第 9 条复现项 2026-10-04 过（L2 包交付+verify 实跑 PASS；digest 钉定与 docker build && make run && make verify 验收留待有容器环境执行，已在 repro/README.md 诚实标注）；其余已过。全部通过前不写正文数值段（\pending 占位维持）。
+**门禁结论（2026-10-04 终判后 = 全部通过）**：第 6 条过（30/30 文献表，全 DOI 级）；第 9 条复现项过（L2 包交付+verify 实跑 PASS；digest 钉定与 docker build && make run && make verify 验收留待有容器环境执行，已在 repro/README.md 诚实标注）；第 7/8 条随终判闭环——C1/C3 直接验证、C2 以预注册失败分支成立（H1 75% FAIL = 协议边界图，experiment_plan.md 预注册的可发表分支）。**门禁全过，进入 S4 正文写作**（数字一律溯源 summary30.csv / *_gci.csv / *_arms.csv）。
 
 ---
-*生成：2026-10-04；文献检索轮：v4 R7/R8/R10；矩阵时点：29/30。*
+*生成：2026-10-04；文献检索轮：v4 R7/R8/R10；矩阵时点：30/30 终判（R24）。*

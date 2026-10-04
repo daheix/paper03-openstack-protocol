@@ -1,0 +1,5 @@
+Bg1,THD_pct,lambda_m_Wb,T_avg_slope_Nm,T_avg_amp_Nm,lambda1_energy_Wb,runtime_s,model,arm,mesh,lc_scale
+0.962,12.8,1.0712,0.0,12.0324,13.2987,77.9,g2-hb-ecc05,A0,default,
+0.9622,12.64,1.0699,0.0,12.0129,13.2771,37.8,g2-hb-ecc05,A1,coarse,2.0
+0.962,12.8,1.0712,0.0,12.0324,13.2987,63.1,g2-hb-ecc05,A1,mid,1.0
+0.9624,12.81,1.0718,0.0,12.0368,13.3036,234.6,g2-hb-ecc05,A1,fine,0.5

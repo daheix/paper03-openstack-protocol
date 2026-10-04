@@ -1,0 +1,5 @@
+Bg1,THD_pct,lambda_m_Wb,T_avg_slope_Nm,T_avg_amp_Nm,lambda1_energy_Wb,runtime_s,model,arm,mesh,lc_scale,FAIL,wall_s
+0.7062,28.87,0.4445,0.0,3.4361,1.3404,77.6,gen142-18s4p-hb8-mt25,A0,default,,,
+0.6992,29.43,0.442,0.0,3.4142,1.3318,36.4,gen142-18s4p-hb8-mt25,A1,coarse,2.0,,
+0.7062,28.87,0.4445,0.0,3.4361,1.3404,81.2,gen142-18s4p-hb8-mt25,A1,mid,1.0,,
+,,,,,,,gen142-18s4p-hb8-mt25,A1,fine,0.5,1,300.1

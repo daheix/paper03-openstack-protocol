@@ -1,0 +1,7 @@
+model,metric,fine,mid,coarse,p_order,f_extrap,GCI_fine_pct
+gen7-24s4p-hb1-ma3000,Bg1,0.8419,0.8396,0.8396,0.0,0.8419,0.341
+gen7-24s4p-hb1-ma3000,THD_pct,25.78,25.73,25.81,0.678,25.863333333333344,0.242
+gen7-24s4p-hb1-ma3000,T_avg_slope_Nm,0.0,0.0,0.0,0.0,nan,
+gen7-24s4p-hb1-ma3000,T_avg_amp_Nm,0.0,-0.0,0.0,0.0,nan,
+gen7-24s4p-hb1-ma3000,lambda_m_Wb,0.9238,0.9243,0.9231,1.263,0.923442857142857,0.068
+gen7-24s4p-hb1-ma3000,lambda1_energy_Wb,0.0,-0.0,0.0,0.0,nan,

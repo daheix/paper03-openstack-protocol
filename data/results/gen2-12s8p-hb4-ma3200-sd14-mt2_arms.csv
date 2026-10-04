@@ -1,0 +1,5 @@
+Bg1,THD_pct,lambda_m_Wb,T_avg_slope_Nm,T_avg_amp_Nm,lambda1_energy_Wb,runtime_s,model,arm,mesh,lc_scale,FAIL,wall_s
+0.7642,54.66,0.3887,0.2783,0.2815,0.1297,100.6,gen2-12s8p-hb4-ma3200-sd14-mt2,A0,default,,,
+0.7619,55.03,0.3877,0.2779,0.2811,0.1295,41.2,gen2-12s8p-hb4-ma3200-sd14-mt2,A1,coarse,2.0,,
+0.7642,54.66,0.3887,0.2783,0.2815,0.1297,101.3,gen2-12s8p-hb4-ma3200-sd14-mt2,A1,mid,1.0,,
+,,,,,,,gen2-12s8p-hb4-ma3200-sd14-mt2,A1,fine,0.5,1,300.2

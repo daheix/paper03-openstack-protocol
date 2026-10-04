@@ -1,0 +1,5 @@
+Bg1,THD_pct,lambda_m_Wb,T_avg_slope_Nm,T_avg_amp_Nm,lambda1_energy_Wb,runtime_s,model,arm,mesh,lc_scale
+0.9193,21.47,0.9811,1.0131,1.0248,1.1327,78.3,gen7-12s4p-hb1-ma3400,A0,default,
+0.9212,21.51,0.9791,1.0108,1.0224,1.1301,28.1,gen7-12s4p-hb1-ma3400,A1,coarse,2.0
+0.9193,21.47,0.9811,1.0131,1.0248,1.1327,61.8,gen7-12s4p-hb1-ma3400,A1,mid,1.0
+0.9211,21.5,0.9816,1.0138,1.0255,1.1334,217.7,gen7-12s4p-hb1-ma3400,A1,fine,0.5

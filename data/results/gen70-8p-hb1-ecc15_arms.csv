@@ -1,0 +1,5 @@
+Bg1,THD_pct,lambda_m_Wb,T_avg_slope_Nm,T_avg_amp_Nm,lambda1_energy_Wb,runtime_s,model,arm,mesh,lc_scale,FAIL,wall_s
+0.1266,29.19,0.0064,0.0003,0.0003,0.0002,160.2,gen70-8p-hb1-ecc15,A0,default,,,
+0.1276,29.22,0.0064,0.0003,0.0003,0.0002,44.8,gen70-8p-hb1-ecc15,A1,coarse,2.0,,
+0.1266,29.19,0.0064,0.0003,0.0003,0.0002,154.6,gen70-8p-hb1-ecc15,A1,mid,1.0,,
+,,,,,,,gen70-8p-hb1-ecc15,A1,fine,0.5,1,300.3
